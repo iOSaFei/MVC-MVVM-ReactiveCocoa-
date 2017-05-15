@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369E02CF83343F59C189A48A /* Pods_RAC___MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557429CBF6094F1CF081EE67 /* Pods_RAC___MVVM.framework */; };
+		4AC1A13A9BBA072DDB0C24D1 /* Pods_RAC___MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F210566EF7FB242750F9170 /* Pods_RAC___MVVMUITests.framework */; };
+		7B211A5D1EC7420200A9D12F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211A5C1EC7420200A9D12F /* main.m */; };
+		7B211A601EC7420200A9D12F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211A5F1EC7420200A9D12F /* AppDelegate.m */; };
+		7B211A631EC7420200A9D12F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211A621EC7420200A9D12F /* ViewController.m */; };
+		7B211A661EC7420200A9D12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B211A641EC7420200A9D12F /* Main.storyboard */; };
+		7B211A681EC7420200A9D12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B211A671EC7420200A9D12F /* Assets.xcassets */; };
+		7B211A6B1EC7420200A9D12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B211A691EC7420200A9D12F /* LaunchScreen.storyboard */; };
+		7B211A761EC7420200A9D12F /* RAC___MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211A751EC7420200A9D12F /* RAC___MVVMTests.m */; };
+		7B211A811EC7420200A9D12F /* RAC___MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B211A801EC7420200A9D12F /* RAC___MVVMUITests.m */; };
+		7B5A8CF81EC743A80057F285 /* WFImageNameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A8CF71EC743A80057F285 /* WFImageNameViewModel.m */; };
+		7B5A8CFB1EC743CB0057F285 /* WFImageNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A8CFA1EC743CB0057F285 /* WFImageNameModel.m */; };
+		7B5A8CFD1EC743E20057F285 /* json0.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5A8CFC1EC743E10057F285 /* json0.json */; };
+		7B5A8CFF1EC743EB0057F285 /* json1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5A8CFE1EC743EB0057F285 /* json1.json */; };
+		98C29A5EC3E910EFB2F1BBAC /* Pods_RAC___MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D1C5E347FEB69B33F03DC7 /* Pods_RAC___MVVMTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B211A721EC7420200A9D12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B211A501EC7420200A9D12F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B211A571EC7420200A9D12F;
+			remoteInfo = "RAC实现的MVVM";
+		};
+		7B211A7D1EC7420200A9D12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B211A501EC7420200A9D12F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B211A571EC7420200A9D12F;
+			remoteInfo = "RAC实现的MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01956629562CDB11D3E48342 /* Pods-RAC实现的MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVMUITests/Pods-RAC实现的MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F210566EF7FB242750F9170 /* Pods_RAC___MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC___MVVMUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2691D9ACCDD0B827D1DE3073 /* Pods-RAC实现的MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVMTests/Pods-RAC实现的MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		470128234257F59FEEC66B62 /* Pods-RAC实现的MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVM/Pods-RAC实现的MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		557429CBF6094F1CF081EE67 /* Pods_RAC___MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC___MVVM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D1C5E347FEB69B33F03DC7 /* Pods_RAC___MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC___MVVMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B211A581EC7420200A9D12F /* RAC实现的MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC实现的MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B211A5C1EC7420200A9D12F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B211A5E1EC7420200A9D12F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B211A5F1EC7420200A9D12F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B211A611EC7420200A9D12F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B211A621EC7420200A9D12F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B211A651EC7420200A9D12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B211A671EC7420200A9D12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B211A6A1EC7420200A9D12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B211A6C1EC7420200A9D12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B211A711EC7420200A9D12F /* RAC实现的MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC实现的MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B211A751EC7420200A9D12F /* RAC___MVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___MVVMTests.m"; sourceTree = "<group>"; };
+		7B211A771EC7420200A9D12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B211A7C1EC7420200A9D12F /* RAC实现的MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC实现的MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B211A801EC7420200A9D12F /* RAC___MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___MVVMUITests.m"; sourceTree = "<group>"; };
+		7B211A821EC7420200A9D12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5A8CF61EC743A80057F285 /* WFImageNameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImageNameViewModel.h; sourceTree = "<group>"; };
+		7B5A8CF71EC743A80057F285 /* WFImageNameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImageNameViewModel.m; sourceTree = "<group>"; };
+		7B5A8CF91EC743CB0057F285 /* WFImageNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImageNameModel.h; sourceTree = "<group>"; };
+		7B5A8CFA1EC743CB0057F285 /* WFImageNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImageNameModel.m; sourceTree = "<group>"; };
+		7B5A8CFC1EC743E10057F285 /* json0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json0.json; sourceTree = "<group>"; };
+		7B5A8CFE1EC743EB0057F285 /* json1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1.json; sourceTree = "<group>"; };
+		7F3B4BD51B6894ED2F02E0C9 /* Pods-RAC实现的MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVMUITests/Pods-RAC实现的MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91B37B73347674B9265EE831 /* Pods-RAC实现的MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVMTests/Pods-RAC实现的MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		99DC51BFE40B50DE50DA5F9A /* Pods-RAC实现的MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC实现的MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC实现的MVVM/Pods-RAC实现的MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B211A551EC7420200A9D12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369E02CF83343F59C189A48A /* Pods_RAC___MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A6E1EC7420200A9D12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C29A5EC3E910EFB2F1BBAC /* Pods_RAC___MVVMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A791EC7420200A9D12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC1A13A9BBA072DDB0C24D1 /* Pods_RAC___MVVMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ACC7E5B1A9712840BF4F46A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DC51BFE40B50DE50DA5F9A /* Pods-RAC实现的MVVM.debug.xcconfig */,
+				470128234257F59FEEC66B62 /* Pods-RAC实现的MVVM.release.xcconfig */,
+				2691D9ACCDD0B827D1DE3073 /* Pods-RAC实现的MVVMTests.debug.xcconfig */,
+				91B37B73347674B9265EE831 /* Pods-RAC实现的MVVMTests.release.xcconfig */,
+				7F3B4BD51B6894ED2F02E0C9 /* Pods-RAC实现的MVVMUITests.debug.xcconfig */,
+				01956629562CDB11D3E48342 /* Pods-RAC实现的MVVMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B211A4F1EC7420200A9D12F = {
+			isa = PBXGroup;
+			children = (
+				7B211A5A1EC7420200A9D12F /* RAC实现的MVVM */,
+				7B211A741EC7420200A9D12F /* RAC实现的MVVMTests */,
+				7B211A7F1EC7420200A9D12F /* RAC实现的MVVMUITests */,
+				7B211A591EC7420200A9D12F /* Products */,
+				7ACC7E5B1A9712840BF4F46A /* Pods */,
+				871EAC6FBE469F031AC86DAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B211A591EC7420200A9D12F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B211A581EC7420200A9D12F /* RAC实现的MVVM.app */,
+				7B211A711EC7420200A9D12F /* RAC实现的MVVMTests.xctest */,
+				7B211A7C1EC7420200A9D12F /* RAC实现的MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B211A5A1EC7420200A9D12F /* RAC实现的MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				7B211A5E1EC7420200A9D12F /* AppDelegate.h */,
+				7B211A5F1EC7420200A9D12F /* AppDelegate.m */,
+				7B211A611EC7420200A9D12F /* ViewController.h */,
+				7B211A621EC7420200A9D12F /* ViewController.m */,
+				7B5A8CF61EC743A80057F285 /* WFImageNameViewModel.h */,
+				7B5A8CF71EC743A80057F285 /* WFImageNameViewModel.m */,
+				7B5A8CF91EC743CB0057F285 /* WFImageNameModel.h */,
+				7B5A8CFA1EC743CB0057F285 /* WFImageNameModel.m */,
+				7B5A8CFC1EC743E10057F285 /* json0.json */,
+				7B5A8CFE1EC743EB0057F285 /* json1.json */,
+				7B211A641EC7420200A9D12F /* Main.storyboard */,
+				7B211A671EC7420200A9D12F /* Assets.xcassets */,
+				7B211A691EC7420200A9D12F /* LaunchScreen.storyboard */,
+				7B211A6C1EC7420200A9D12F /* Info.plist */,
+				7B211A5B1EC7420200A9D12F /* Supporting Files */,
+			);
+			path = "RAC实现的MVVM";
+			sourceTree = "<group>";
+		};
+		7B211A5B1EC7420200A9D12F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B211A5C1EC7420200A9D12F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B211A741EC7420200A9D12F /* RAC实现的MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B211A751EC7420200A9D12F /* RAC___MVVMTests.m */,
+				7B211A771EC7420200A9D12F /* Info.plist */,
+			);
+			path = "RAC实现的MVVMTests";
+			sourceTree = "<group>";
+		};
+		7B211A7F1EC7420200A9D12F /* RAC实现的MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B211A801EC7420200A9D12F /* RAC___MVVMUITests.m */,
+				7B211A821EC7420200A9D12F /* Info.plist */,
+			);
+			path = "RAC实现的MVVMUITests";
+			sourceTree = "<group>";
+		};
+		871EAC6FBE469F031AC86DAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557429CBF6094F1CF081EE67 /* Pods_RAC___MVVM.framework */,
+				73D1C5E347FEB69B33F03DC7 /* Pods_RAC___MVVMTests.framework */,
+				1F210566EF7FB242750F9170 /* Pods_RAC___MVVMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B211A571EC7420200A9D12F /* RAC实现的MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B211A851EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVM" */;
+			buildPhases = (
+				8BA49D8DDE68FDC9EBFB0D2A /* [CP] Check Pods Manifest.lock */,
+				7B211A541EC7420200A9D12F /* Sources */,
+				7B211A551EC7420200A9D12F /* Frameworks */,
+				7B211A561EC7420200A9D12F /* Resources */,
+				3EE68E4BAC0F357FBA55C14A /* [CP] Embed Pods Frameworks */,
+				B3CBAB827155F64D7C23F8D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC实现的MVVM";
+			productName = "RAC实现的MVVM";
+			productReference = 7B211A581EC7420200A9D12F /* RAC实现的MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B211A701EC7420200A9D12F /* RAC实现的MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B211A881EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVMTests" */;
+			buildPhases = (
+				BD9A79DA871988FE0214D9A2 /* [CP] Check Pods Manifest.lock */,
+				7B211A6D1EC7420200A9D12F /* Sources */,
+				7B211A6E1EC7420200A9D12F /* Frameworks */,
+				7B211A6F1EC7420200A9D12F /* Resources */,
+				15FACEFE0A307B75E614C57C /* [CP] Embed Pods Frameworks */,
+				4F8AA4EFDCEC8850BB75E07E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B211A731EC7420200A9D12F /* PBXTargetDependency */,
+			);
+			name = "RAC实现的MVVMTests";
+			productName = "RAC实现的MVVMTests";
+			productReference = 7B211A711EC7420200A9D12F /* RAC实现的MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B211A7B1EC7420200A9D12F /* RAC实现的MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B211A8B1EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVMUITests" */;
+			buildPhases = (
+				01E16D94F390EACD55C49182 /* [CP] Check Pods Manifest.lock */,
+				7B211A781EC7420200A9D12F /* Sources */,
+				7B211A791EC7420200A9D12F /* Frameworks */,
+				7B211A7A1EC7420200A9D12F /* Resources */,
+				A241D443D615926A8E062031 /* [CP] Embed Pods Frameworks */,
+				A0D8822F7E1F12CBECE6D537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B211A7E1EC7420200A9D12F /* PBXTargetDependency */,
+			);
+			name = "RAC实现的MVVMUITests";
+			productName = "RAC实现的MVVMUITests";
+			productReference = 7B211A7C1EC7420200A9D12F /* RAC实现的MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B211A501EC7420200A9D12F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fly;
+				TargetAttributes = {
+					7B211A571EC7420200A9D12F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7B211A701EC7420200A9D12F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B211A571EC7420200A9D12F;
+					};
+					7B211A7B1EC7420200A9D12F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B211A571EC7420200A9D12F;
+					};
+				};
+			};
+			buildConfigurationList = 7B211A531EC7420200A9D12F /* Build configuration list for PBXProject "RAC实现的MVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B211A4F1EC7420200A9D12F;
+			productRefGroup = 7B211A591EC7420200A9D12F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B211A571EC7420200A9D12F /* RAC实现的MVVM */,
+				7B211A701EC7420200A9D12F /* RAC实现的MVVMTests */,
+				7B211A7B1EC7420200A9D12F /* RAC实现的MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B211A561EC7420200A9D12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5A8CFD1EC743E20057F285 /* json0.json in Resources */,
+				7B211A6B1EC7420200A9D12F /* LaunchScreen.storyboard in Resources */,
+				7B5A8CFF1EC743EB0057F285 /* json1.json in Resources */,
+				7B211A681EC7420200A9D12F /* Assets.xcassets in Resources */,
+				7B211A661EC7420200A9D12F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A6F1EC7420200A9D12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A7A1EC7420200A9D12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E16D94F390EACD55C49182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15FACEFE0A307B75E614C57C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVMTests/Pods-RAC实现的MVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE68E4BAC0F357FBA55C14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVM/Pods-RAC实现的MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8AA4EFDCEC8850BB75E07E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVMTests/Pods-RAC实现的MVVMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA49D8DDE68FDC9EBFB0D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D8822F7E1F12CBECE6D537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVMUITests/Pods-RAC实现的MVVMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A241D443D615926A8E062031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVMUITests/Pods-RAC实现的MVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CBAB827155F64D7C23F8D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC实现的MVVM/Pods-RAC实现的MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9A79DA871988FE0214D9A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B211A541EC7420200A9D12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5A8CFB1EC743CB0057F285 /* WFImageNameModel.m in Sources */,
+				7B211A631EC7420200A9D12F /* ViewController.m in Sources */,
+				7B211A601EC7420200A9D12F /* AppDelegate.m in Sources */,
+				7B5A8CF81EC743A80057F285 /* WFImageNameViewModel.m in Sources */,
+				7B211A5D1EC7420200A9D12F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A6D1EC7420200A9D12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B211A761EC7420200A9D12F /* RAC___MVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B211A781EC7420200A9D12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B211A811EC7420200A9D12F /* RAC___MVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B211A731EC7420200A9D12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B211A571EC7420200A9D12F /* RAC实现的MVVM */;
+			targetProxy = 7B211A721EC7420200A9D12F /* PBXContainerItemProxy */;
+		};
+		7B211A7E1EC7420200A9D12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B211A571EC7420200A9D12F /* RAC实现的MVVM */;
+			targetProxy = 7B211A7D1EC7420200A9D12F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B211A641EC7420200A9D12F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B211A651EC7420200A9D12F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B211A691EC7420200A9D12F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B211A6A1EC7420200A9D12F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B211A831EC7420200A9D12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B211A841EC7420200A9D12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B211A861EC7420200A9D12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DC51BFE40B50DE50DA5F9A /* Pods-RAC实现的MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC实现的MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		7B211A871EC7420200A9D12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470128234257F59FEEC66B62 /* Pods-RAC实现的MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC实现的MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		7B211A891EC7420200A9D12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2691D9ACCDD0B827D1DE3073 /* Pods-RAC实现的MVVMTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC实现的MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC实现的MVVM.app/RAC实现的MVVM";
+			};
+			name = Debug;
+		};
+		7B211A8A1EC7420200A9D12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B37B73347674B9265EE831 /* Pods-RAC实现的MVVMTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC实现的MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC实现的MVVM.app/RAC实现的MVVM";
+			};
+			name = Release;
+		};
+		7B211A8C1EC7420200A9D12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3B4BD51B6894ED2F02E0C9 /* Pods-RAC实现的MVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC实现的MVVMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC实现的MVVM";
+			};
+			name = Debug;
+		};
+		7B211A8D1EC7420200A9D12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01956629562CDB11D3E48342 /* Pods-RAC实现的MVVMUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC实现的MVVMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afei.RAC---MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC实现的MVVM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B211A531EC7420200A9D12F /* Build configuration list for PBXProject "RAC实现的MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B211A831EC7420200A9D12F /* Debug */,
+				7B211A841EC7420200A9D12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B211A851EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B211A861EC7420200A9D12F /* Debug */,
+				7B211A871EC7420200A9D12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B211A881EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B211A891EC7420200A9D12F /* Debug */,
+				7B211A8A1EC7420200A9D12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B211A8B1EC7420200A9D12F /* Build configuration list for PBXNativeTarget "RAC实现的MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B211A8C1EC7420200A9D12F /* Debug */,
+				7B211A8D1EC7420200A9D12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B211A501EC7420200A9D12F /* Project object */;
+}

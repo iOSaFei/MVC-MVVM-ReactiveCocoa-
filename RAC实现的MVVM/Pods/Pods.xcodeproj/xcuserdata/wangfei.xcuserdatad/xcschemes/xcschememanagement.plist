@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RAC实现的MVVM.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RAC实现的MVVMTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RAC实现的MVVMUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2CB9939240D9D0F5DD0AA265DF239ED6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FFC1B1990BC36378487D1F2731A2F5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34A74A2DE607FCD105D4E1A3455B676B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B25A64EE18BF27ECEB4F034F380CB8EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
